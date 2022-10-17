@@ -7,19 +7,14 @@ import re
 from bs4 import BeautifulSoup
 
 
-sender_name = 'yaoyao'
-receiver_name = 'nana'
+sender_name = '*'
+receiver_name = '*'
 
 kenenbi = '2022-12-24'  # 纪念日
 name = 'liyao'  # 发件人名称
 mail_title = '考研倒计时'  # 邮件名称
 
-"""
-mailto_list = ["liyao1119@mails.jlu.edu.cn"]  # 收件人
-mail_host = "smtp.qq.com"  # 设置邮箱服务器
-mail_user = "1979443072@qq.com"  # 用户名
-mail_pass = "tfhuctdjonbecgbe"  # 密码
-"""
+
 
 mailto_list = ["***@***.***","***@***.***"]  # 收件人
 mail_host = "smtp.qq.com"  # 发件服务器
